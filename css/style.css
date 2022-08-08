@@ -1,0 +1,87 @@
+.body {
+    background-color: #4e73df;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+.colum-login {
+    max-width: 84%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.35rem;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.left {
+    float: left;
+    width: 570px;
+    height: auto;
+    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    float: right;
+    height: auto;
+    width: 570px;
+}
+
+.form-login {
+    justify-content: center;
+}
+
+.p-0 {
+    padding: 40px 30px !important;
+    margin: 0 auto;
+}
+
+.text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.p-5 {
+    padding: 10px;
+}
+
+.w-100 {
+    width: 80%;
+}
+
+.input-login {
+    border-radius: 40px;
+    border: 1px #6e707e solid;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 15px;
+}
